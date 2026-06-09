@@ -11,14 +11,14 @@ export const metadata = {
     telephone: true,
     email: false,
   },
-  metadataBase: new URL('https://serenity-site-lovat.vercel.app'),
+  metadataBase: new URL('https://serenity.kz'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Serenity — химчистка в Астане',
     description: 'Профессиональный уход за вещами с вниманием к качеству и деталям. Чистка одежды, обуви, штор, одеял. 3 пункта приёма в Астане.',
-    url: 'https://serenity-site-lovat.vercel.app',
+    url: 'https://serenity.kz',
     siteName: 'Serenity',
     locale: 'ru_KZ',
     type: 'website',
@@ -47,7 +47,7 @@ const jsonLd = {
   '@type': 'DryCleaningOrLaundry',
   name: 'Serenity',
   description: 'Современная химчистка в Астане с аккуратным сервисом, понятной консультацией и бережным подходом к изделиям.',
-  url: 'https://serenity-site-lovat.vercel.app',
+  url: 'https://serenity.kz',
   telephone: '+77769262888',
   address: [
     {
