@@ -809,7 +809,7 @@ export default function SerenityLanding() {
                 <a href={`tel:+${WHATSAPP_NUMBER}`} className="sr-footer-link" style={{ fontWeight: 500 }}>
                   +7 776 926 28 88
                 </a>
-              </div> </div> <div>
+              </div></div> 
               <h4>Услуги</h4>
               <a href="/himchistka-kurtok" className="sr-footer-link">Химчистка курток</a>
               <a href="/himchistka-obuvi" className="sr-footer-link">Химчистка обуви</a>
