@@ -816,7 +816,7 @@ export default function SerenityLanding() {
               <a href="/chistka-shtor" className="sr-footer-link">Чистка штор</a>
               <a href="/stirka-dlya-biznesa" className="sr-footer-link">Для бизнеса</a>
             </div>
-            </div></div>
+            </div>
           </div>
           <div className="sr-footer-bottom">
             © {new Date().getFullYear()} Serenity. {t.footerRights}
