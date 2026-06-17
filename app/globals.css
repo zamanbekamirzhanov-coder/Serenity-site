@@ -677,3 +677,80 @@
         .sr-header-right {
           display: flex; align-items: center;
         }
+/* ── SERVICE PAGE STYLES ── */
+.sr-back-link {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.sr-back-link:hover { color: var(--c-text); }
+
+.sr-prices-table {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.sr-service-cat-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 32px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--c-border-light);
+}
+.sr-service-cat-title:first-child {
+  margin-top: 0;
+}
+.sr-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--c-border-light);
+  font-size: 15px;
+  gap: 16px;
+}
+.sr-price-row span:first-child {
+  color: var(--c-text);
+}
+.sr-price-val {
+  font-weight: 600;
+  color: var(--c-accent);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* FAQ with details/summary */
+.sr-faq-detail {
+  border-bottom: 1px solid var(--c-border-light);
+}
+.sr-faq-detail summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--c-text);
+  cursor: pointer;
+  list-style: none;
+  line-height: 1.5;
+}
+.sr-faq-detail summary::-webkit-details-marker { display: none; }
+.sr-faq-detail summary::after {
+  content: "+";
+  font-size: 20px;
+  color: var(--c-text-tertiary);
+  flex-shrink: 0;
+  margin-left: 16px;
+  transition: transform 0.2s;
+}
+.sr-faq-detail[open] summary::after {
+  content: "−";
+}
+.sr-faq-detail p {
+  padding: 0 0 20px;
+  font-size: 14px;
+  color: var(--c-text-secondary);
+  line-height: 1.7;
+}
