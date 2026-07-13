@@ -112,6 +112,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="google-site-verification" content="CEw00ooELvSW9t-8CEgTW1fLBgrQ-iRzg88Heh3BQOk" />
         <meta name="google-site-verification" content="YDgaXtqZNqeTyvzgWBO23mWfDkz_5KEdM7LE5pxss60" />
+        <meta name="yandex-verification" content="0848063dc8933457" />
         <meta name="theme-color" content="#2D5A3D" />
         <meta name="geo.region" content="KZ-AST" />
         <meta name="geo.placename" content="Astana" />
