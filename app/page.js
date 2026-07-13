@@ -87,7 +87,7 @@ const T = {
   en: {
     langLabel: "EN",
     heroLabel: "Dry cleaning in Astana",
-    heroTitle: "Professional garment care with\u00A0attention to\u00A0quality and\u00A0detail",
+    heroTitle: "Dry Cleaning in\u00A0Astana — Professional Garment Care",
     heroSub: "Serenity — dry cleaning in Astana with careful service, clear consultations and a gentle approach to your items.",
     heroNote: "Clothing, footwear, curtains, blankets and pillows — with the option to check the cost, timing and processing details in advance.",
     ctaWhatsApp: "Message us on WhatsApp",
@@ -165,7 +165,7 @@ const T = {
   kz: {
     langLabel: "KZ",
     heroLabel: "Астанадағы химиялық тазалау",
-    heroTitle: "Заттарға кәсіби күтім — сапа мен\u00A0егжей-тегжейге\u00A0назар аудара отырып",
+    heroTitle: "Астанадағы химиялық тазалау — заттарыңызға кәсіби\u00A0күтім",
     heroSub: "Serenity — Астанадағы химиялық тазалау. Ұқыпты сервис, түсінікті кеңес және бұйымдарға ұқыпты қарым-қатынас.",
     heroNote: "Киім, аяқ киім, перделер, көрпелер мен жастықтар — құнын, мерзімін және өңдеу ерекшеліктерін алдын ала білу мүмкіндігімен.",
     ctaWhatsApp: "WhatsApp-қа жазу",
