@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import SeoTextBlock from "./SeoTextBlock";
 
 // ═══════════════════════════════════════════════════════
 // i18n TRANSLATIONS — RU / EN / KZ
@@ -763,7 +764,7 @@ export default function SerenityLanding() {
         </div>
       </section>
 
-      {/* ════════ FINAL CTA ════════ */}
+     <SeoTextBlock /> {/* ════════ FINAL CTA ════════ */}
       <section className="sr-final-cta">
         <div className="sr-wrap">
           <Reveal>
