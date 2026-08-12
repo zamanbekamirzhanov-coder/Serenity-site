@@ -361,8 +361,26 @@ const LOCATIONS = {
   ],
 };
 
+function getTrafficSource() {
+  if (typeof window === "undefined") return "с сайта";
+
+  const params = new URLSearchParams(window.location.search);
+  const utmSource = params.get("utm_source");
+
+  if (utmSource === "google") return "с гугл рекламы";
+  if (utmSource === "instagram") return "из инстаграм";
+
+  const ref = document.referrer;
+  if (ref && ref.includes("instagram.com")) return "из инстаграм";
+  if (ref && ref.includes("2gis.")) return "с 2ГИС";
+
+  return "с сайта";
+}
+
 function waLink(message, number = WHATSAPP_NUMBER) {
-  return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+  const source = getTrafficSource();
+  const fullMessage = `(${source}) ${message}`;
+  return `https://wa.me/${number}?text=${encodeURIComponent(fullMessage)}`;
 }
 
 function buildServiceMsg(selected, t) {
